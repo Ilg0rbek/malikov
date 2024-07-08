@@ -33,22 +33,21 @@ import { MotionBox } from 'components/shared/animations/motion';
 
 const webLinks = [
   { name: 'About', path: '/about' },
-  { name: 'Blog', path: '/blog' }
+  { name: 'Tech Stack', path: '/tech-stack' }
 ];
 
 const mobileLinks = [
   { name: 'Projects', path: '/projects' },
-  { name: 'Open Source', path: '/open-source' },
-  { name: 'Blog', path: '/blog' },
-  { name: 'Changelog', path: '/changelog' }
+  { name: 'About', path: '/open-source' },
+  { name: 'Tech Atack', path: '/tech-stack' },
 ];
 
 const dropdownLinks = [
   { name: 'Projects', path: '/projects' },
   { name: 'Tech Stack', path: '/tech-stack' },
   { name: 'Open Source', path: '/open-source' },
-  { name: 'Achievements', path: '/achievements' },
-  { name: 'Changelog', path: '/changelog' }
+  // { name: 'Achievements', path: '/achievements' },
+  // { name: 'Changelog', path: '/changelog' }
   // { name: "Developer Story", path: "/developer-story" }
 ];
 
@@ -171,7 +170,7 @@ export default function TopNav() {
                   size={'sm'}
                   showBorder={true}
                   borderColor={linkColor}
-                  src={'https://avatars2.githubusercontent.com/u/37842853?v=4'}
+                  src={'https://avatars.githubusercontent.com/u/87908082?v=4'}
                 />
               </NextLink>
             </MotionBox>

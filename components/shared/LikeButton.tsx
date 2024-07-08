@@ -5,7 +5,7 @@ import { Icon, useColorModeValue, Spinner } from '@chakra-ui/react';
 import { Box, HStack } from '@chakra-ui/layout';
 import { BsHeartFill } from 'react-icons/bs';
 
-const emojis = ['👍', '🙏', '🥰'];
+const emojis = ['prive life', 'clear mind', 'peaceful life'];
 
 export const LikeButton = ({
   id,

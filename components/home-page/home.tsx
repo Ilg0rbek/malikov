@@ -60,7 +60,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               size={'2xl'}
               showBorder={true}
               borderColor={linkColor}
-              src={'https://avatars2.githubusercontent.com/u/37842853?v=4'}
+              src={'https://avatars.githubusercontent.com/u/87908082?v=4'}
             />
           </MotionBox>
         </MotionBox>
