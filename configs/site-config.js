@@ -3,7 +3,10 @@ import {
   FaDev,
   FaLinkedin,
   FaQuora,
-  FaTwitter
+  FaTwitter,
+  FaTelegram,
+  FaCode,
+  FaInstagram
 } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
@@ -22,13 +25,13 @@ const siteConfig = {
         url: "https://github.com/Ilg0rbek",
         label: "Twitter Account",
         type: "twitter",
-        icon: <FaTwitter />
+        icon: <FaTelegram />
       },
       {
-        url: "https://github.com/Ilg0rbek",
+        url: "https://www.instagram.com/ilgorbek.abdumalikovv",
         label: "Dev Account",
         type: "gray",
-        icon: <FaDev />
+        icon: <FaInstagram />
       },
       {
         url: "https://www.linkedin.com/in/abdumalikov-ilgorbek/",
@@ -36,12 +39,6 @@ const siteConfig = {
         type: "linkedin",
         icon: <FaLinkedin />
       },
-      // {
-      //   url: "https://www.quora.com/profile/Muhammad-Ahmad-66",
-      //   label: "Quora Account",
-      //   type: "red",
-      //   icon: <FaQuora />
-      // },
       {
         url: "mailto:ilgorbekabdumalikov331@gmail.com",
         label: "Mail ahmad",

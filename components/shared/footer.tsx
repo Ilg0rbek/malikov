@@ -40,7 +40,7 @@ const Footer = () => {
           fontSize="sm"
           color={useColorModeValue("gray.500", "gray.200")}
         >
-          © {new Date().getFullYear()} Malikov Ilgor{" "}
+          © {new Date().getFullYear()} Abdumalikov Ilgor{" "}
         </Text>
         <Box textAlign="center">
           {siteConfig.author.accounts.map((sc, index) => (

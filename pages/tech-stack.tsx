@@ -175,6 +175,22 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
                     </SimpleGrid>
                   </MotionBox>
                 </TabPanel>
+                <TabPanel px={0}>
+                  <MotionBox variants={container} initial="hidden" animate="visible">
+                    <SimpleGrid columns={[1, 2]} spacing={4} mt={8}>
+                      {skillsList.map((tool, index) => (
+                        <SkillCard
+                          key={index}
+                          name={tool.name}
+                          description={tool.description}
+                          image={tool.image}
+                          // platform={"web"}
+                          link={tool.link}
+                        />
+                      ))}
+                    </SimpleGrid>
+                  </MotionBox>
+                </TabPanel>
               </TabPanels>
             </Tabs>
           </Section>

@@ -50,46 +50,11 @@ export const institutes = [
 
 export const skillsArray = [
   {
-    name: 'Node js',
-    description: 'Web development',
-    link: 'https://nodejs.org/en',
+    name: 'Visual Studio Code',
+    description: 'Code editor of choice',
+    link: 'https://code.visualstudio.com/',
     type: 'development',
-    image: '/assets/images/skills/nodejs.webp'
-  },
-  {
-    name: 'Express js',
-    description: 'Web development',
-    link: 'https://nodejs.org/en',
-    type: 'development',
-    image: '/assets/images/skills/express.png'
-  },
-  {
-    name: 'Nest js',
-    description: 'Web development',
-    link: 'https://nodejs.org/en',
-    type: 'development',
-    image: '/assets/images/skills/nestjs.png'
-  },
-  {
-    name: 'React',
-    description: 'Web development',
-    link: 'https://reactjs.org/',
-    type: 'development',
-    image: '/assets/images/skills/react.png'
-  },
-  {
-    name: 'Javascript',
-    description: 'Web development',
-    link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-    type: 'development',
-    image: '/assets/images/skills/javascript.png'
-  },
-  {
-    name: 'Typescript',
-    description: 'Web development',
-    link: 'https://www.typescriptlang.org/',
-    type: 'development',
-    image: '/assets/images/skills/typescript.png'
+    image: '/assets/images/skills/vscode.png'
   },
   {
     name: 'Html5',
@@ -113,6 +78,27 @@ export const skillsArray = [
     image: '/assets/images/skills/bootstrap.png'
   },
   {
+    name: 'Javascript',
+    description: 'Web development',
+    link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    type: 'development',
+    image: '/assets/images/skills/javascript.png'
+  },
+  {
+    name: 'Typescript',
+    description: 'Web development',
+    link: 'https://www.typescriptlang.org/',
+    type: 'development',
+    image: '/assets/images/skills/typescript.png'
+  },
+  {
+    name: 'React',
+    description: 'Web development',
+    link: 'https://reactjs.org/',
+    type: 'development',
+    image: '/assets/images/skills/react.png'
+  },
+  {
     name: 'Ant Design',
     description: 'Web design',
     link: 'https://ant.design',
@@ -120,11 +106,39 @@ export const skillsArray = [
     image: '/assets/images/skills/ant.png'
   },
   {
+    name: 'Shadcn - ui',
+    description: 'Web design',
+    link: 'https://ui.shadcn.com/docs/cli',
+    type: 'design',
+    image: '/assets/images/skills/shadcn.png'
+  },
+  {
     name: 'Tailwind css',
     description: 'Web design',
     link: 'https://tailwindcss.com/',
     type: 'design',
     image: '/assets/images/skills/tailwind.png'
+  },
+  {
+    name: 'Node js',
+    description: 'Web development',
+    link: 'https://nodejs.org/en',
+    type: 'development',
+    image: '/assets/images/skills/nodejs.webp'
+  },
+  {
+    name: 'Express js',
+    description: 'Web development',
+    link: 'https://nodejs.org/en',
+    type: 'development',
+    image: '/assets/images/skills/express.png'
+  },
+  {
+    name: 'Nest js',
+    description: 'Web development',
+    link: 'https://nodejs.org/en',
+    type: 'development',
+    image: '/assets/images/skills/nestjs.png'
   },
   {
     name: 'Postgres',
@@ -174,13 +188,6 @@ export const skillsArray = [
     link: 'https://httpd.apache.org/',
     type: 'devops',
     image: '/assets/images/skills/apache.png'
-  },
-  {
-    name: 'Visual Studio Code',
-    description: 'Code editor of choice',
-    link: 'https://code.visualstudio.com/',
-    type: 'development',
-    image: '/assets/images/skills/vscode.png'
   }
 ];
 

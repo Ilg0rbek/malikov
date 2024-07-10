@@ -10,7 +10,8 @@ import {
   AspectRatio,
   Image,
   Skeleton,
-  Link
+  Link,
+  Badge
 } from '@chakra-ui/react';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import { AiOutlineGithub } from 'react-icons/ai';
@@ -207,7 +208,10 @@ const LeftProjectLayoutLarge = ({ project }) => {
               p="4"
               fontSize="md"
             >
-              {project.description}
+              {project.description} <br />
+              <Badge variant="outline" colorScheme={`${project.isActive ? 'green' : 'red'}`}>
+                {project.isActive ? 'Aktiv' : 'Aktiv emas'}
+              </Badge>
             </MotionText>
             {project.techStack && (
               <MotionList
@@ -289,7 +293,10 @@ const RightProjectLayoutLarge = ({ project }) => {
               p="4"
               fontSize="md"
             >
-              {project.description}
+              {project.description} <br />
+              <Badge variant="outline" colorScheme={`${project.isActive ? 'green' : 'red'}`}>
+                {project.isActive ? 'Aktiv' : 'Aktiv emas'}
+              </Badge>
             </MotionText>
             {project.techStack && (
               <MotionList
