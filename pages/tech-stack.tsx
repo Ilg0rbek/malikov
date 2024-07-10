@@ -26,6 +26,7 @@ import { container, PageSlideFade } from 'components/shared/animations/page-tran
 import PageLayout from '../components/layouts/pageLayout';
 import { useLinkColor } from 'components/theme';
 import { SkillProps } from 'interfaces/interface';
+import { FaDatabase } from 'react-icons/fa';
 
 const tabList = [
   {
@@ -42,6 +43,11 @@ const tabList = [
     name: 'Web Design',
     filterName: 'design',
     icon: GiSpiderWeb
+  },
+  {
+    name: 'Databases',
+    filterName: 'database',
+    icon: FaDatabase
   },
   {
     name: 'Devops',
@@ -64,8 +70,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
   };
 
   return (
-    <PageLayout title="Skills" keywords="rails, ruby, react, javascript, typescript">
-      <PageSlideFade>
+    <PageLayout title="Skills" keywords="nest, node, react, javascript, typescript">
         <VStack spacing={8}>
           <Section>
             <VStack>
@@ -174,7 +179,6 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
             </Tabs>
           </Section>
         </VStack>
-      </PageSlideFade>
     </PageLayout>
   );
 };

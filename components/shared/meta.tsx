@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { SEO_IMAGE } from 'data/constants';
 
 type Props = {
   title: string;
@@ -32,7 +31,6 @@ Meta.defaultProps = {
   title: 'Malikof Ilgor - Full Stack Developer',
   keywords: 'web development, programming, web design, react js, chakra ui',
   description: 'Software Engineer. Lover of web and opensource.',
-  image: SEO_IMAGE
 };
 
 export default Meta;

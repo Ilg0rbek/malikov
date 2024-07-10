@@ -1,64 +1,32 @@
 export const companies = [
   {
-    title: 'Nalikes Studio',
-    alt: 'NS image',
-    role: 'Senior Software Engineer',
-    skills: ['web3', 'nextjs', 'rails', 'typescript', 'react', 'aws', 'heroku'],
-    period: '2023 - Present',
-    logo: '/assets/images/logos/nalikes-studio.png'
+    title: 'ASU',
+    alt: 'Not found image',
+    role: 'Middle Software Engineer',
+    skills: ['web3', 'nodejs', 'nestjs', 'expressjs', 'typescript', 'javascript', 'react', 'mongoose', 'postgres', 'aws', 'ngnix', 'apache2'],
+    period: '2023 nov - Present',
+    logo: '/assets/images/logos/asu.png'
   },
   {
-    title: 'Big Wolf Games',
-    alt: 'BW image',
-    role: 'Senior Software Engineer',
-    skills: ['ruby', 'rails', 'typescript', 'react', 'pixi', 'aws', 'heroku', 'serverless'],
-    period: '2021 - 2023',
-    logo: '/assets/images/logos/bigwolf.png'
-  },
-  {
-    title: 'Phaedra Solutions',
-    alt: 'PS image',
-    role: 'Senior Software Engineer',
-    skills: ['ruby', 'rails', 'typescript', 'javascript', 'react', 'aws'],
-    period: '2019 - 2021',
-    logo: '/assets/images/logos/phaedra.jpeg'
-  },
-  {
-    title: 'Brainx Technologies',
-    alt: 'BT image',
-    role: 'Software Engineer',
-    skills: ['ruby', 'rails', 'javascript', 'python'],
-    period: '2018 - 2019',
-    logo: '/assets/images/logos/brainxtech.png'
-  },
-  // {
-  //   title: "Codenya Studio",
-  //   alt: "CS image",
-  //   role: "Co-founder, CTO",
-  //   skills: ["ruby", "rails", "python", "typescript", "react", "aws"],
-  //   period: "2018 - Present",
-  //   logo: '/assets/images/logos/codenya.png'
-  // },
-  {
-    title: 'Brainplow',
-    alt: 'Brainplow image',
-    role: 'Software Engineer',
-    skills: ['javascript', 'python', 'angular'],
-    period: '2017 - 2018',
-    logo: '/assets/images/logos/brainplow.jpg'
+    title: 'Empire - Soft',
+    alt: 'Not found image',
+    role: 'Junior Software Engineer',
+    skills: ['web3', 'nodejs', 'expressjs', 'typescript', 'react', 'aws', 'mongoose'],
+    period: '2023 feb - 2023 okt',
+    logo: '/assets/images/logos/empire.jpeg'
   }
 ];
 
 export const institutes = [
   {
-    short_title: 'FAST - NUCES',
-    title: 'National University of Computer and Emerging Sciences',
-    alt: 'Nuces image',
-    role: "Bachelor's Degree in Computer Science",
-    skills: ['project management', 'web development', 'data structures'],
-    period: '2013 - 2017',
-    startingYear: '2013',
-    logo: '/assets/images/logos/fast.png',
+    short_title: 'TUIT',
+    title: 'Tashkent University of Information Technology ',
+    alt: 'Not found image',
+    role: "Bachelor's Degree in Telecommunication engineering",
+    skills: ['web development', 'data structures'],
+    period: '2019 - 2023',
+    startingYear: '2019',
+    logo: '/assets/images/logos/tuit.png',
     awards: [
       {
         title: 'Speed Programming Battle',
@@ -82,11 +50,25 @@ export const institutes = [
 
 export const skillsArray = [
   {
-    name: 'Ruby on Rails',
+    name: 'Node js',
     description: 'Web development',
-    link: 'https://rubyonrails.org/',
+    link: 'https://nodejs.org/en',
     type: 'development',
-    image: '/assets/images/skills/rails.png'
+    image: '/assets/images/skills/nodejs.webp'
+  },
+  {
+    name: 'Express js',
+    description: 'Web development',
+    link: 'https://nodejs.org/en',
+    type: 'development',
+    image: '/assets/images/skills/express.png'
+  },
+  {
+    name: 'Nest js',
+    description: 'Web development',
+    link: 'https://nodejs.org/en',
+    type: 'development',
+    image: '/assets/images/skills/nestjs.png'
   },
   {
     name: 'React',
@@ -94,20 +76,6 @@ export const skillsArray = [
     link: 'https://reactjs.org/',
     type: 'development',
     image: '/assets/images/skills/react.png'
-  },
-  {
-    name: 'Ruby',
-    description: 'Web development, scrapping',
-    link: 'https://www.ruby-lang.org/en/',
-    type: 'development',
-    image: '/assets/images/skills/ruby.png'
-  },
-  {
-    name: 'Python',
-    description: 'Web development, scrapping',
-    link: 'https://www.python.org/',
-    type: 'development',
-    image: '/assets/images/skills/python.png'
   },
   {
     name: 'Javascript',
@@ -145,6 +113,20 @@ export const skillsArray = [
     image: '/assets/images/skills/bootstrap.png'
   },
   {
+    name: 'Ant Design',
+    description: 'Web design',
+    link: 'https://ant.design',
+    type: 'design',
+    image: '/assets/images/skills/ant.png'
+  },
+  {
+    name: 'Tailwind css',
+    description: 'Web design',
+    link: 'https://tailwindcss.com/',
+    type: 'design',
+    image: '/assets/images/skills/tailwind.png'
+  },
+  {
     name: 'Postgres',
     description: 'Database',
     link: 'https://www.postgresql.org/',
@@ -152,11 +134,11 @@ export const skillsArray = [
     image: '/assets/images/skills/postgresql.png'
   },
   {
-    name: 'Mysql',
+    name: 'Mongodb',
     description: 'Database',
-    link: 'https://www.mysql.com/',
+    link: 'https://www.mongoose.com/',
     type: 'database',
-    image: '/assets/images/skills/mysql.png'
+    image: '/assets/images/skills/mongo.png'
   },
   {
     name: 'Redis',
@@ -164,13 +146,6 @@ export const skillsArray = [
     link: 'https://redis.io/',
     type: 'database',
     image: '/assets/images/skills/redis.png'
-  },
-  {
-    name: 'Heroku',
-    description: 'Devops',
-    link: 'https://www.heroku.com/',
-    type: 'devops',
-    image: '/assets/images/skills/heroku.png'
   },
   {
     name: 'AWS',
@@ -194,18 +169,18 @@ export const skillsArray = [
     image: '/assets/images/skills/nginx.png'
   },
   {
+    name: 'Apache2',
+    description: 'Web server',
+    link: 'https://httpd.apache.org/',
+    type: 'devops',
+    image: '/assets/images/skills/apache.png'
+  },
+  {
     name: 'Visual Studio Code',
     description: 'Code editor of choice',
     link: 'https://code.visualstudio.com/',
     type: 'development',
     image: '/assets/images/skills/vscode.png'
-  },
-  {
-    name: 'Figma',
-    description: 'Collaborative Design',
-    link: 'https://www.figma.com/',
-    type: 'design',
-    image: '/assets/images/skills/figma.png'
   }
 ];
 
