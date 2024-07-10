@@ -10,8 +10,6 @@ import {
 import { PageSlideFade } from 'components/shared/animations/page-transitions'
 import Header from 'components/shared/header'
 import { RiSignalTowerLine, RiWifiOffLine } from 'react-icons/ri'
-import OfflineData from 'components/open-source/offline-data'
-import LiveData from 'components/open-source/live-data'
 import { repositories } from 'data/repositories'
 import useSound from 'use-sound'
 import PageLayout from 'components/layouts/pageLayout'
