@@ -85,7 +85,7 @@ const Card = (props: CardProps) => {
             </Stack>
           </Flex>
           <Stack display={['none', 'none', 'flex', 'flex']}>
-            <Text fontSize={14} color={`mode.${colorMode}.career.subtext`}>
+            <Text width={'150px'} fontSize={14} color={`mode.${colorMode}.career.subtext`}>
               {period}
             </Text>
           </Stack>
@@ -93,7 +93,6 @@ const Card = (props: CardProps) => {
         <Stack
           spacing={1}
           mt={3}
-          isInline
           alignItems="center"
           display={['flex', 'flex', 'none', 'none']}
         >
