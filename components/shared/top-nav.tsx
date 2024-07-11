@@ -22,9 +22,7 @@ import { ColorModeSwitcher } from '../theme/ColorModeSwitcher';
 import { AiTwotoneThunderbolt } from 'react-icons/ai';
 import { BiChevronDown } from 'react-icons/bi';
 import { CgArrowsExchange } from 'react-icons/cg';
-import { BsCheckCircle } from 'react-icons/bs';
 import { MdTimeline } from 'react-icons/md';
-import { BsBook } from 'react-icons/bs';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { AccentPicker } from 'components/theme/Accent';
@@ -38,7 +36,7 @@ const webLinks = [
 
 const mobileLinks = [
   { name: 'Projects', path: '/projects' },
-  { name: 'About', path: '/open-source' },
+  { name: 'About', path: '/about' },
   { name: 'Tech Atack', path: '/tech-stack' }
 ];
 
@@ -159,15 +157,19 @@ export default function TopNav() {
           />
           <HStack spacing={8} alignItems={'center'}>
             <MotionBox whileHover={{ scale: 1.2 }} shadow="md" rounded="full">
-              <NextLink href={'/'} passHref>
-                <Avatar
-                  as={Link}
-                  size={'sm'}
-                  showBorder={true}
-                  borderColor={linkColor}
-                  src={'https://avatars.githubusercontent.com/u/87908082?v=4'}
-                />
-              </NextLink>
+              <HStack display={{ base: 'none', md: 'flex' }}>
+                <NextLink href={'/'} passHref>
+                  <Avatar
+                    as={Link}
+                    size={'sm'}
+                    showBorder={true}
+                    borderColor={linkColor}
+                    src={
+                      'https://lh3.googleusercontent.com/ogw/AF2bZyi6VmSoNJr_crO3r4iEDG9_eZEiN42JFSwmjwFiL4sYgg=s32-c-mo'
+                    }
+                  />
+                </NextLink>
+              </HStack>
             </MotionBox>
             <HStack as={'nav'} spacing={3} display={{ base: 'none', md: 'flex' }}>
               {webLinks.map((link, index) => (

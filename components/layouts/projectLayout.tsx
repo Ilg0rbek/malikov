@@ -106,28 +106,6 @@ const ProjectLayoutMed = ({ project }) => {
               )}
             </Box>
           </a>
-          <MotionFlex variants={fadeInUp} pt={2} mt={1} justifyContent="start">
-            {project.gitHub && (
-              <Link mr={2} href={project.gitHub} isExternal>
-                <IconButton
-                  colorScheme="gray"
-                  rounded="full"
-                  size="md"
-                  aria-label="medal"
-                  icon={<AiOutlineGithub />}
-                />
-              </Link>
-            )}
-            <Link href={project.site} isExternal>
-              <IconButton
-                colorScheme="gray"
-                rounded="full"
-                size="md"
-                aria-label="medal"
-                icon={<HiOutlineExternalLink />}
-              />
-            </Link>
-          </MotionFlex>
         </MotionBox>
       </MotionBox>
     </Flex>
@@ -172,8 +150,8 @@ const LeftProjectLayoutLarge = ({ project }) => {
               position="absolute"
               rounded="xl"
               objectFit="cover"
-              opacity={0.5}
-              _hover={{ opacity: 1 }}
+              opacity={1}
+              _hover={{ opacity: 0.5 }}
             />
           </AspectRatio>
         </a>
@@ -376,8 +354,8 @@ const RightProjectLayoutLarge = ({ project }) => {
               position="absolute"
               rounded="xl"
               objectFit="cover"
-              opacity={0.5}
-              _hover={{ opacity: 1 }}
+              opacity={1}
+              _hover={{ opacity: 0.5 }}
             />
           </AspectRatio>
         </a>
