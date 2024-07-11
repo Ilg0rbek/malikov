@@ -9,12 +9,21 @@ function AppLayout(props) {
     <Fragment>
       <TopNav />
       <DottedSvgs />
-      <Box textAlign="center" fontSize="xl" w={['90%', '85%', '80%']} maxW={800} mx="auto">
-        <Box pt={'7rem'} pb={10}>
-          {props.children}
+      <div
+        style={{
+          height: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
+        }}
+      >
+        <Box textAlign="center" fontSize="xl" w={['90%', '85%', '80%']} maxW={800} mx="auto">
+          <Box pt={'7rem'} pb={10}>
+            {props.children}
+          </Box>
         </Box>
-      </Box>
-      <Footer />
+        <Footer />
+      </div>
     </Fragment>
   );
 }
@@ -25,6 +34,7 @@ function DottedSvgs() {
       position="absolute"
       height="50rem"
       width="100%"
+      maxHeight={'100vh'}
       overflow="hidden"
       display={['none', 'none', 'block']}
       zIndex={-1}

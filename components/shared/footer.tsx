@@ -19,7 +19,6 @@ const Footer = () => {
   return (
     <Stack
       as="footer"
-      isInline
       spacing={[1, 2]}
       p={4}
       justifyContent="space-between"

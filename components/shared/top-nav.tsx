@@ -44,7 +44,7 @@ const mobileLinks = [
 const dropdownLinks = [
   { name: 'Projects', path: '/projects' },
   { name: 'Tech Stack', path: '/tech-stack' },
-  { name: 'Blog', path: '/' }
+  { name: 'Blogs', path: '/blog' }
 ];
 
 interface NavLinkProps {
@@ -164,13 +164,13 @@ export default function TopNav() {
                     variant="outline"
                     colorScheme="green"
                     py={1}
-                    px={2}
+                    px={2.5}
                     rounded={'lg'}
                     fontWeight={'bold'}
                     fontSize={'lg'}
                     cursor={'pointer'}
                   >
-                    MI
+                    AI
                   </Badge>
                 </NextLink>
               </HStack>

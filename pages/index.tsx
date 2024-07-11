@@ -1,16 +1,15 @@
-import Home from 'components/home-page/home'
-import { GetStaticProps, NextPage } from 'next'
-import { BlogPostProps } from 'interfaces/interface'
-import PageLayout from 'components/layouts/pageLayout'
+import { NextPage } from 'next';
+import { BlogPostProps } from 'interfaces/interface';
+import PageLayout from 'components/layouts/pageLayout';
+import Home from './home';
 
 const Index: NextPage<BlogPostProps> = (props) => {
-  const { posts } = props
+  const { posts } = props;
   return (
-    <PageLayout title="Malikov Ilgor - Full Stack Developer">
+    <PageLayout title="Abdumalikov Ilgor 🇺🇿 - Full Stack Developer">
       <Home posts={posts} />
     </PageLayout>
-  )
-}
+  );
+};
 
-
-export default Index
+export default Index;
