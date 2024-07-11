@@ -42,7 +42,13 @@ const Home: React.FC<BlogPostProps> = (props) => {
           mb={[16, 16, 'auto']}
         >
           <MotionBox whileHover={{ scale: 1.2 }} rounded="full" shadow="lg">
-            <Avatar size={'2xl'} showBorder={true} borderColor={linkColor} src={''} />
+            <Avatar
+              size={'2xl'}
+              objectFit={'contain'}
+              showBorder={true}
+              borderColor={linkColor}
+              src={'/logo.jpg'}
+            />
           </MotionBox>
         </MotionBox>
         <MotionFlex
