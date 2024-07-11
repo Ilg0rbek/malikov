@@ -14,7 +14,8 @@ import {
   MenuList,
   MenuItem,
   Stack,
-  Icon
+  Icon,
+  Badge
 } from '@chakra-ui/react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -43,7 +44,7 @@ const mobileLinks = [
 const dropdownLinks = [
   { name: 'Projects', path: '/projects' },
   { name: 'Tech Stack', path: '/tech-stack' },
-  { name: 'Blog', path: '/blog' }
+  { name: 'Blog', path: '/' }
 ];
 
 interface NavLinkProps {
@@ -159,15 +160,18 @@ export default function TopNav() {
             <MotionBox whileHover={{ scale: 1.2 }} shadow="md" rounded="full">
               <HStack display={{ base: 'none', md: 'flex' }}>
                 <NextLink href={'/'} passHref>
-                  <Avatar
-                    as={Link}
-                    size={'sm'}
-                    showBorder={true}
-                    borderColor={linkColor}
-                    src={
-                      'https://lh3.googleusercontent.com/ogw/AF2bZyi6VmSoNJr_crO3r4iEDG9_eZEiN42JFSwmjwFiL4sYgg=s32-c-mo'
-                    }
-                  />
+                  <Badge
+                    variant="outline"
+                    colorScheme="green"
+                    py={1}
+                    px={2}
+                    rounded={'lg'}
+                    fontWeight={'bold'}
+                    fontSize={'lg'}
+                    cursor={'pointer'}
+                  >
+                    MI
+                  </Badge>
                 </NextLink>
               </HStack>
             </MotionBox>

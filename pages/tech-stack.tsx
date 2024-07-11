@@ -70,7 +70,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
   };
 
   return (
-    <PageLayout title="Skills" keywords="nest, node, react, javascript, typescript">
+    <PageLayout title="Skills 🔥" keywords="nest, node, react, javascript, typescript">
         <VStack spacing={8}>
           <Section>
             <VStack>

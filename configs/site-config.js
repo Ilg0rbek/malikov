@@ -22,15 +22,15 @@ const siteConfig = {
         icon: <FaGithub />
       },
       {
-        url: "https://github.com/Ilg0rbek",
-        label: "Twitter Account",
-        type: "twitter",
+        url: "https://t.me/iamilgor",
+        label: "Telegram Account",
+        type: "telegram",
         icon: <FaTelegram />
       },
       {
         url: "https://www.instagram.com/ilgorbek.abdumalikovv",
-        label: "Dev Account",
-        type: "gray",
+        label: "Instagram Account",
+        type: "insta",
         icon: <FaInstagram />
       },
       {
@@ -41,8 +41,8 @@ const siteConfig = {
       },
       {
         url: "mailto:ilgorbekabdumalikov331@gmail.com",
-        label: "Mail ahmad",
-        type: "gray",
+        label: "Mail Ilgor",
+        type: "mail",
         icon: <FiMail />
       }
     ]

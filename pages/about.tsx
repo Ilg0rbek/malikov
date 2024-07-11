@@ -90,12 +90,7 @@ const Card = (props: CardProps) => {
             </Text>
           </Stack>
         </Flex>
-        <Stack
-          spacing={1}
-          mt={3}
-          alignItems="center"
-          display={['flex', 'flex', 'none', 'none']}
-        >
+        <Stack spacing={1} mt={3} alignItems="center" display={['flex', 'flex', 'none', 'none']}>
           <Tags
             tags={skills}
             interactive={false}
@@ -115,7 +110,7 @@ const About = ({ companies, institutes }) => {
   const { colorMode } = useColorMode();
 
   return (
-    <PageLayout title="About" description="My educational and professional journey so far">
+    <PageLayout title="About 👨🏻‍💻" description="My educational and professional journey so far">
       <PageSlideFade>
         <StaggerChildren>
           <MotionBox>
