@@ -68,7 +68,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 >
                   {title}
                 </Text>
-                <HStack spacing="1">
+                <HStack spacing="2">
                   {technologies.map((tech, index) => (
                     <Tag key={index} name={tech} mt="1px" interactive={false} mr="auto" />
                   ))}

@@ -14,7 +14,6 @@ import {
   Badge
 } from '@chakra-ui/react';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import { AiOutlineGithub } from 'react-icons/ai';
 import { MotionBox, MotionFlex, MotionList, MotionText } from 'components/shared/animations/motion';
 
 const ProjectLayoutMed = ({ project }) => {
@@ -150,8 +149,8 @@ const LeftProjectLayoutLarge = ({ project }) => {
               position="absolute"
               rounded="xl"
               objectFit="cover"
-              opacity={1}
-              _hover={{ opacity: 0.5 }}
+              opacity={0.5}
+              _hover={{ opacity: 1 }}
             />
           </AspectRatio>
         </a>
@@ -209,19 +208,7 @@ const LeftProjectLayoutLarge = ({ project }) => {
               </MotionList>
             )}
           </Box>
-
           <MotionFlex variants={fadeInUp} pt={2} mt={1} justifyContent="end">
-            {project.gitHub && (
-              <Link mr={2} href={project.gitHub} isExternal>
-                <IconButton
-                  colorScheme="gray"
-                  rounded="full"
-                  size="md"
-                  aria-label="medal"
-                  icon={<AiOutlineGithub />}
-                />
-              </Link>
-            )}
             <Link href={project.site} isExternal>
               <IconButton
                 colorScheme="gray"
@@ -296,17 +283,6 @@ const RightProjectLayoutLarge = ({ project }) => {
           </Box>
 
           <MotionFlex variants={fadeInUp} pt={2} mt={1} justifyContent="start">
-            {project.gitHub && (
-              <Link mr={2} href={project.gitHub} isExternal>
-                <IconButton
-                  colorScheme="gray"
-                  rounded="full"
-                  size="md"
-                  aria-label="medal"
-                  icon={<AiOutlineGithub />}
-                />
-              </Link>
-            )}
             <Link href={project.site} isExternal>
               <IconButton
                 colorScheme="gray"
@@ -354,8 +330,8 @@ const RightProjectLayoutLarge = ({ project }) => {
               position="absolute"
               rounded="xl"
               objectFit="cover"
-              opacity={1}
-              _hover={{ opacity: 0.5 }}
+              opacity={0.5}
+              _hover={{ opacity: 1 }}
             />
           </AspectRatio>
         </a>
