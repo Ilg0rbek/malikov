@@ -189,6 +189,9 @@ const LeftProjectLayoutLarge = ({ project }) => {
               <Badge variant="outline" colorScheme={`${project.isActive ? 'green' : 'red'}`}>
                 {project.isActive ? 'Aktiv' : 'Aktiv emas'}
               </Badge>
+              <Badge variant="outline" ms={2} colorScheme={'purple'}>
+                {project.type }
+              </Badge>
             </MotionText>
             {project.techStack && (
               <MotionList
@@ -261,6 +264,9 @@ const RightProjectLayoutLarge = ({ project }) => {
               {project.description} <br />
               <Badge variant="outline" colorScheme={`${project.isActive ? 'green' : 'red'}`}>
                 {project.isActive ? 'Aktiv' : 'Aktiv emas'}
+              </Badge>
+              <Badge variant="outline" ms={2} colorScheme={'purple'}>
+                {project.type }
               </Badge>
             </MotionText>
             {project.techStack && (
