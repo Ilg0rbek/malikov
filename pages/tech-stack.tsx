@@ -28,7 +28,6 @@ import { useLinkColor } from 'components/theme';
 import { SkillProps } from 'interfaces/interface';
 import { FaDatabase } from 'react-icons/fa';
 
-
 const tabList = [
   {
     name: 'All',
@@ -72,8 +71,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
 
   return (
     <PageLayout title="Skills 🔥" keywords="nest, node, react, javascript, typescript">
-       <PageSlideFade>
-       <VStack spacing={8}>
+      <VStack spacing={8}>
         <Section>
           <VStack>
             <Header mt={0} mb={1}>
@@ -197,7 +195,6 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
           </Tabs>
         </Section>
       </VStack>
-       </PageSlideFade>
     </PageLayout>
   );
 };
