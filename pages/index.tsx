@@ -6,7 +6,7 @@ import Home from './home';
 const Index: NextPage<BlogPostProps> = (props) => {
   const { posts } = props;
   return (
-    <PageLayout title="Abdumalikov Ilgor 🇺🇿 - Full Stack Developer">
+    <PageLayout title="Abdumalikov Ilgor - Full Stack Developer">
       <Home posts={posts} />
     </PageLayout>
   );

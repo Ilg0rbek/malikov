@@ -71,6 +71,13 @@ export const skillsArray = [
     image: '/assets/images/skills/css3.png'
   },
   {
+    name: 'SCSS',
+    description: 'Web design',
+    link: 'https://sass-lang.com/',
+    type: 'design',
+    image: '/assets/images/skills/scss.webp'
+  },
+  {
     name: 'Bootstrap',
     description: 'Web design',
     link: 'https://getbootstrap.com/',
@@ -146,6 +153,13 @@ export const skillsArray = [
     link: 'https://www.postgresql.org/',
     type: 'database',
     image: '/assets/images/skills/postgresql.png'
+  },
+  {
+    name: 'Sequelize ORM',
+    description: 'Database',
+    link: 'https://sequelize.org/',
+    type: 'database',
+    image: '/assets/images/skills/sequelize.webp'
   },
   {
     name: 'Mongodb',
