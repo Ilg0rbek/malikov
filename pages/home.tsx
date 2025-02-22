@@ -47,7 +47,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               objectFit={'contain'}
               showBorder={true}
               borderColor={linkColor}
-              src={'/logo.jpg'}
+              src={'https://png.pngtree.com/png-clipart/20240705/original/pngtree-web-programmer-avatar-png-image_15495270.png'}
             />
           </MotionBox>
         </MotionBox>
