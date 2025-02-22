@@ -190,7 +190,7 @@ const LeftProjectLayoutLarge = ({ project }) => {
                 {project.isActive ? 'Aktiv' : 'Aktiv emas'}
               </Badge>
               <Badge variant="outline" ms={2} colorScheme={'purple'}>
-                {project.type }
+                {project.type}
               </Badge>
             </MotionText>
             {project.techStack && (
@@ -203,9 +203,9 @@ const LeftProjectLayoutLarge = ({ project }) => {
                 color={useColorModeValue('gray.900', 'gray.100')}
                 fontWeight="bold"
               >
-                {project.techStack.map((s, index) => (
+                {project.techStack.map((s: string, index: number) => (
                   <ListItem key={index} mr="3">
-                    <i>{s}</i>
+                    <i >{s}</i>
                   </ListItem>
                 ))}
               </MotionList>
@@ -266,7 +266,7 @@ const RightProjectLayoutLarge = ({ project }) => {
                 {project.isActive ? 'Aktiv' : 'Aktiv emas'}
               </Badge>
               <Badge variant="outline" ms={2} colorScheme={'purple'}>
-                {project.type }
+                {project.type}
               </Badge>
             </MotionText>
             {project.techStack && (

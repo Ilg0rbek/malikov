@@ -9,8 +9,7 @@ const ANIMATION_DURATION = 0.5;
 const ORANGE = '#ff9400';
 const emojis = ['👋', '👍', '🖐'];
 
-const Home: React.FC<BlogPostProps> = (props) => {
-  const { posts } = props;
+const Home: React.FC<BlogPostProps> = () => {
   const linkColor = useLinkColor();
   const [showEmogi, setShowEmoji] = useState(false);
   const [emojiCounter, setEmojiCounter] = useState(-1);
@@ -47,7 +46,9 @@ const Home: React.FC<BlogPostProps> = (props) => {
               objectFit={'contain'}
               showBorder={true}
               borderColor={linkColor}
-              src={'https://png.pngtree.com/png-clipart/20240705/original/pngtree-web-programmer-avatar-png-image_15495270.png'}
+              src={
+                'https://png.pngtree.com/png-clipart/20240705/original/pngtree-web-programmer-avatar-png-image_15495270.png'
+              }
             />
           </MotionBox>
         </MotionBox>

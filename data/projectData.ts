@@ -1,23 +1,14 @@
 export const projectsList = [
   {
-    title: 'Topilmalar',
-    imageLight: '/assets/images/projects/topilmalar.png',
+    title: 'Texnogarant CRM',
+    imageLight: '/assets/images/projects/texnogarant.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-    site: 'https://topilmalar.davxizmat.uz/home',
-    description: 'Topilmalar va yo‘qolgan ashyolarning elektron reyestridan qidirish.',
+    site: 'https://frontend.texnogarant.justix.uz/',
+    description:
+      'Texnogarant hodimlari uchun hisobotlarni topshirishni avtomatlashtirish va doimiy kuzatib borish hisobotlarni admin tomonidan doimiy kontrol qilishini amalga oshiryvchi CRM.',
     isActive: true,
     type: 'Frontend',
-    techStack: ['React', 'TypeScript', 'Ant_Design', 'Redux_toolkit']
-  },
-  {
-    title: 'Suv nasoslari',
-    imageLight: '/assets/images/projects/suvnasoslari.png',
-    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-    site: 'https://suvnasoslari.uz/',
-    description: 'Suv nasoslari ishlab chiqaruvchi kompaniya uchun online savdo web sahifasi.',
-    isActive: false,
-    type: 'Fullstack',
-    techStack: ['React', 'Javascript', 'Css', 'Redux-toolkit']
+    techStack: ['React', 'Typescript', 'Ant_Design', 'React_Query']
   },
   {
     title: 'Ilmiy',
@@ -50,5 +41,25 @@ export const projectsList = [
     isActive: true,
     type: 'Backend',
     techStack: ['React', 'Typescript', 'Ant_design', 'Redux_toolkit']
+  },
+  {
+    title: 'Topilmalar',
+    imageLight: '/assets/images/projects/topilmalar.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://topilmalar.davxizmat.uz/home',
+    description: 'Topilmalar va yo‘qolgan ashyolarning elektron reyestridan qidirish.',
+    isActive: true,
+    type: 'Frontend',
+    techStack: ['React', 'TypeScript', 'Ant_Design', 'Redux_toolkit']
+  },
+  {
+    title: 'Suv nasoslari',
+    imageLight: '/assets/images/projects/suvnasoslari.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://suvnasoslari.uz/',
+    description: 'Suv nasoslari ishlab chiqaruvchi kompaniya uchun online savdo web sahifasi.',
+    isActive: false,
+    type: 'Fullstack',
+    techStack: ['React', 'Javascript', 'Css', 'Redux-toolkit']
   }
 ];

@@ -22,8 +22,8 @@ const siteConfig = {
         icon: <FaGithub />
       },
       {
-        url: "https://t.me/iamilgor",
-        label: "Telegram Account",
+        url: "https://t.me/techcornerjs",
+        label: "Telegram",
         type: "telegram",
         icon: <FaTelegram />
       },

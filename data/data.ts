@@ -1,17 +1,64 @@
 export const companies = [
   {
+    title: "Najot ta'lim",
+    alt: 'Not found image',
+    role: 'Fullstack mentor',
+    skills: [
+      'javascript',
+      'nodejs',
+      'expressjs',
+      'typescript',
+      'nestjs',
+      'graphql',
+      'socket',
+      'telegraf',
+      'mongoose',
+      'postgres',
+      'mysql',
+      'prisma',
+      'sequelize',
+      'microservice',
+      'aws',
+      'ngnix',
+      'apache2',
+      'react'
+    ],
+    period: '2024 sep - Present',
+    logo: '/assets/images/logos/nt.webp'
+  },
+  {
     title: 'ASU',
     alt: 'Not found image',
-    role: 'Middle Software Engineer',
-    skills: ['web3', 'nodejs', 'nestjs', 'expressjs', 'typescript', 'javascript', 'react', 'mongoose', 'postgres', 'aws', 'ngnix', 'apache2'],
-    period: '2023 nov - Present',
+    role: 'Fullstack Engineer',
+    skills: [
+      'javascript',
+      'nodejs',
+      'expressjs',
+      'typescript',
+      'nestjs',
+      'mongoose',
+      'aws',
+      'ngnix',
+      'apache2',
+      'react'
+    ],
+    period: '2023 nov - 2024 avg',
     logo: '/assets/images/logos/asu.png'
   },
   {
     title: 'Empire - Soft',
     alt: 'Not found image',
-    role: 'Junior Software Engineer',
-    skills: ['web3', 'nodejs', 'expressjs', 'typescript', 'react', 'aws', 'mongoose'],
+    role: 'Junior Nodejs  Engineer',
+    skills: [
+      'javascript',
+      'nodejs',
+      'expressjs',
+      'typescript',
+      'nestjs',
+      'react',
+      'aws',
+      'mongoose'
+    ],
     period: '2023 feb - 2023 okt',
     logo: '/assets/images/logos/empire.jpeg'
   }
