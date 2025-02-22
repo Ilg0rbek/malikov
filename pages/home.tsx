@@ -126,7 +126,7 @@ const Home: React.FC<BlogPostProps> = () => {
             </Box>
             from{' '}
             <Box as="span" whiteSpace="nowrap">
-              Uzbeksitan
+              Andijan
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
