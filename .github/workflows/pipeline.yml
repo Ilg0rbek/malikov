@@ -19,6 +19,7 @@ jobs:
           node-version: 18
           cache: 'yarn'
 
+          
       - name: Dependenciyalarni o‘rnatish
         run: yarn install
 
