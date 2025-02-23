@@ -17,12 +17,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cashe: 'yarn'
 
       - name: Dependenciyalarni o‘rnatish
         run: yarn install
 
       - name: Next.js build qilish
-        run: yarn run build
+        run: yarn build
 
       - name: SSH orqali serverga deploy qilish
         uses: appleboy/ssh-action@v0.1.7
@@ -37,7 +38,7 @@ jobs:
             scp -r ../.next .  # Build fayllarni yuklash
             scp -r ../node_modules . # Dependenciyalarni yuklash
             scp ../package.json . # package.json yuklash
-            npm install --omit=dev
+            yarn install --omit=dev
             pm2 stop malikof || true
             pm2 start npm --name "malikof" -- run start
             pm2 save
