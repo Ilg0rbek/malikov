@@ -1,0 +1,43 @@
+name: Deploy Next.js to AWS Lightsail
+
+on:
+  push:
+    branches:
+      - main # yoki asosiy branch nomi
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodni klonlash
+        uses: actions/checkout@v3
+
+      - name: Node.js o‘rnatish
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Dependenciyalarni o‘rnatish
+        run: yarn install
+
+      - name: Next.js build qilish
+        run: yarn run build
+
+      - name: SSH orqali serverga deploy qilish
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{ secrets.AWS_HOST }}
+          username: ${{ secrets.AWS_USER }}
+          key: ${{ secrets.AWS_SSH_KEY }}
+          script: |
+            cd /var/www/malikof || mkdir -p /var/www/malikof && cd /var/www/malikof
+            rm -rf *
+            mkdir .next
+            scp -r ../.next .  # Build fayllarni yuklash
+            scp -r ../node_modules . # Dependenciyalarni yuklash
+            scp ../package.json . # package.json yuklash
+            npm install --omit=dev
+            pm2 stop malikof || true
+            pm2 start npm --name "malikof" -- run start
+            pm2 save
