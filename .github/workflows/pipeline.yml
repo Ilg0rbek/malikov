@@ -35,11 +35,11 @@ jobs:
           script: |
             cd /var/www/malikof || mkdir -p /var/www/malikof && cd /var/www/malikof
             sudo rm -rf *
-            mkdir .next
-            scp -r ../.next .  # Build fayllarni yuklash
-            scp -r ../node_modules . # Dependenciyalarni yuklash
-            scp ../package.json . # package.json yuklash
-            yarn install --omit=dev
+            sudo mkdir .next
+            sudo scp -r ../.next .  # Build fayllarni yuklash
+            sudo scp -r ../node_modules . # Dependenciyalarni yuklash
+            sudo scp ../package.json . # package.json yuklash
+            sudo yarn install --omit=dev
             pm2 stop malikof || true
             pm2 start npm --name "malikof" -- run start
             pm2 save
