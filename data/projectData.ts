@@ -1,7 +1,7 @@
 export const projectsList = [
   {
     title: 'Texnogarant CRM',
-    imageLight: '/assets/images/projects/texnogarant.png',
+    imageLight: 'assets/images/projects/texnogarant.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://frontend.texnogarant.justix.uz/',
     description:
@@ -12,7 +12,7 @@ export const projectsList = [
   },
   {
     title: 'Ilmiy',
-    imageLight: '/assets/images/projects/ilmiy.png',
+    imageLight: 'assets/images/projects/ilmiy.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://ilmiy.adu.uz/login',
     description:
@@ -23,7 +23,7 @@ export const projectsList = [
   },
   {
     title: 'AK',
-    imageLight: '/assets/images/projects/ak.png',
+    imageLight: 'assets/images/projects/ak.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://ak.adu.uz/',
     description:
@@ -34,7 +34,7 @@ export const projectsList = [
   },
   {
     title: 'Davomat',
-    imageLight: '/assets/images/projects/davomat.png',
+    imageLight: 'assets/images/projects/davomat.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://davomat.adu.uz/',
     description: 'Korxonadagi xodimlar keldi ketdi nazoratini avtomatlashtirish tizimi.',
@@ -44,7 +44,7 @@ export const projectsList = [
   },
   {
     title: 'Topilmalar',
-    imageLight: '/assets/images/projects/topilmalar.png',
+    imageLight: 'assets/images/projects/topilmalar.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://topilmalar.davxizmat.uz/home',
     description: 'Topilmalar va yo‘qolgan ashyolarning elektron reyestridan qidirish.',
@@ -54,7 +54,7 @@ export const projectsList = [
   },
   {
     title: 'Suv nasoslari',
-    imageLight: '/assets/images/projects/suvnasoslari.png',
+    imageLight: 'assets/images/projects/suvnasoslari.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://suvnasoslari.uz/',
     description: 'Suv nasoslari ishlab chiqaruvchi kompaniya uchun online savdo web sahifasi.',

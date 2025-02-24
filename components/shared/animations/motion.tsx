@@ -49,7 +49,7 @@ export const MotionImage = motion(
     return (
       <Image
         ref={ref}
-        fallbackSrc={'/assets/images/placeholder.png'}
+        fallbackSrc={'assets/images/placeholder.png'}
         {...chakraProps}
       />
     )

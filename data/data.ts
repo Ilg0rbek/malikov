@@ -24,7 +24,7 @@ export const companies = [
       'react'
     ],
     period: '2024 sep - Present',
-    logo: '/assets/images/logos/nt.webp'
+    logo: 'assets/images/logos/nt.webp'
   },
   {
     title: 'ASU',
@@ -43,7 +43,7 @@ export const companies = [
       'react'
     ],
     period: '2023 nov - 2024 avg',
-    logo: '/assets/images/logos/asu.png'
+    logo: 'assets/images/logos/asu.png'
   },
   {
     title: 'Empire - Soft',
@@ -60,7 +60,7 @@ export const companies = [
       'mongoose'
     ],
     period: '2023 feb - 2023 okt',
-    logo: '/assets/images/logos/empire.jpeg'
+    logo: 'assets/images/logos/empire.jpeg'
   }
 ];
 
@@ -73,7 +73,7 @@ export const institutes = [
     skills: ['web development', 'data structures'],
     period: '2019 - 2023',
     startingYear: '2019',
-    logo: '/assets/images/logos/tuit.png',
+    logo: 'assets/images/logos/tuit.png',
     awards: [
       {
         title: 'Speed Programming Battle',
@@ -101,126 +101,126 @@ export const skillsArray = [
     description: 'Code editor of choice',
     link: 'https://code.visualstudio.com/',
     type: 'development',
-    image: '/assets/images/skills/vscode.png'
+    image: 'assets/images/skills/vscode.png'
   },
   {
     name: 'Html5',
     description: 'Web layouts',
     link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
     type: 'development',
-    image: '/assets/images/skills/html-5.png'
+    image: 'assets/images/skills/html-5.png'
   },
   {
     name: 'Css3',
     description: 'Web design',
     link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     type: 'design',
-    image: '/assets/images/skills/css3.png'
+    image: 'assets/images/skills/css3.png'
   },
   {
     name: 'SCSS',
     description: 'Web design',
     link: 'https://sass-lang.com/',
     type: 'design',
-    image: '/assets/images/skills/scss.webp'
+    image: 'assets/images/skills/scss.webp'
   },
   {
     name: 'Bootstrap',
     description: 'Web design',
     link: 'https://getbootstrap.com/',
     type: 'design',
-    image: '/assets/images/skills/bootstrap.png'
+    image: 'assets/images/skills/bootstrap.png'
   },
   {
     name: 'Javascript',
     description: 'Web development',
     link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     type: 'development',
-    image: '/assets/images/skills/javascript.png'
+    image: 'assets/images/skills/javascript.png'
   },
   {
     name: 'Typescript',
     description: 'Web development',
     link: 'https://www.typescriptlang.org/',
     type: 'development',
-    image: '/assets/images/skills/typescript.png'
+    image: 'assets/images/skills/typescript.png'
   },
   {
     name: 'React',
     description: 'Web development',
     link: 'https://reactjs.org/',
     type: 'development',
-    image: '/assets/images/skills/react.png'
+    image: 'assets/images/skills/react.png'
   },
   {
     name: 'Ant Design',
     description: 'Web design',
     link: 'https://ant.design',
     type: 'design',
-    image: '/assets/images/skills/ant.png'
+    image: 'assets/images/skills/ant.png'
   },
   {
     name: 'Shadcn - ui',
     description: 'Web design',
     link: 'https://ui.shadcn.com/docs/cli',
     type: 'design',
-    image: '/assets/images/skills/shadcn.png'
+    image: 'assets/images/skills/shadcn.png'
   },
   {
     name: 'Tailwind css',
     description: 'Web design',
     link: 'https://tailwindcss.com/',
     type: 'design',
-    image: '/assets/images/skills/tailwind.png'
+    image: 'assets/images/skills/tailwind.png'
   },
   {
     name: 'Node js',
     description: 'Web development',
     link: 'https://nodejs.org/en',
     type: 'development',
-    image: '/assets/images/skills/nodejs.webp'
+    image: 'assets/images/skills/nodejs.webp'
   },
   {
     name: 'Express js',
     description: 'Web development',
     link: 'https://nodejs.org/en',
     type: 'development',
-    image: '/assets/images/skills/express.png'
+    image: 'assets/images/skills/express.png'
   },
   {
     name: 'Nest js',
     description: 'Web development',
     link: 'https://nodejs.org/en',
     type: 'development',
-    image: '/assets/images/skills/nestjs.png'
+    image: 'assets/images/skills/nestjs.png'
   },
   {
     name: 'Postgres',
     description: 'Database',
     link: 'https://www.postgresql.org/',
     type: 'database',
-    image: '/assets/images/skills/postgresql.png'
+    image: 'assets/images/skills/postgresql.png'
   },
   {
     name: 'Sequelize ORM',
     description: 'Database',
     link: 'https://sequelize.org/',
     type: 'database',
-    image: '/assets/images/skills/sequelize.webp'
+    image: 'assets/images/skills/sequelize.webp'
   },
   {
     name: 'Mongodb',
     description: 'Database',
     link: 'https://www.mongoose.com/',
     type: 'database',
-    image: '/assets/images/skills/mongo.png'
+    image: 'assets/images/skills/mongo.png'
   },
   {
     name: 'Redis',
     description: 'Database',
     link: 'https://redis.io/',
     type: 'database',
-    image: '/assets/images/skills/redis.png'
+    image: 'assets/images/skills/redis.png'
   },
   {
     name: 'AWS',
@@ -234,21 +234,21 @@ export const skillsArray = [
     description: 'Devops',
     link: 'https://www.digitalocean.com/',
     type: 'devops',
-    image: '/assets/images/skills/digital-ocean.png'
+    image: 'assets/images/skills/digital-ocean.png'
   },
   {
     name: 'Nginx',
     description: 'Web server',
     link: 'https://www.nginx.com/',
     type: 'devops',
-    image: '/assets/images/skills/nginx.png'
+    image: 'assets/images/skills/nginx.png'
   },
   {
     name: 'Apache2',
     description: 'Web server',
     link: 'https://httpd.apache.org/',
     type: 'devops',
-    image: '/assets/images/skills/apache.png'
+    image: 'assets/images/skills/apache.png'
   }
 ];
 

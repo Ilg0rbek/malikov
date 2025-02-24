@@ -9,7 +9,7 @@ export const ColorModeSwitcher: React.FC<ColorModeSwitcherProps> = () => {
   const { toggleColorMode } = useColorMode();
   const mode = useColorModeValue('dark', 'light');
 
-  const [play] = useSound('/assets/audios/lightswitch.mp3', {
+  const [play] = useSound('assets/audios/lightswitch.mp3', {
     volume: 0.05,
     sprite: {
       on: [0, 300],
